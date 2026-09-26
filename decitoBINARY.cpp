@@ -1,18 +1,6 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
-// int fun(int n){
-//     int bin = 0;
-//     int multiplier = 1; // 1, 10, 100, 1000 aise badhega
-    
-//     while(n > 0){
-//         int bit = n % 2;
-//         bin = (bit * multiplier) + bin;
-//         n = n / 2;
-//         multiplier = multiplier * 10; // Next place value ke liye
-//     }
-//     return bin;
-// }
 int fun(int n){
     int bin=0;
     int i=0;
